@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta content="viewport"content="device-width-1.0">
+    <meta content="description"content="Top music sites">
+    <title>Music store</title>
+</head>
+<body>
+    <header><h1>Your Music Journey Starts Here</h1></header>
+    <p><h2>Get ready to immerse yourself in a world of sound. At Rish, we're passionate about music and dedicated to bringing you the best listening experience. Browse our extensive catalogue, discover new artists, and build your perfect soundtrack.</h2>
+        <p><h3>Browse our Catologues</h3></p>        
+<nav>
+    <a href="New release">New release</a>
+    <a href="Top charts">Top charts</a>
+    <a href="Editors choice">Editors choice</a>
+ </nav>
+ <section id="Latest songs">
+    <h3>All your latest songs,from afrobeats to hiplife to hip-pop </h3>
+ </section>
+ <ol type="I">
+    <li>Afrobeats</li>
+    <li>Gospel</li>
+    <li>Hiplife</li>
+    <li>Hip-pop</li>
+ </ol>
+ <!--A table of the working staff-->
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Contact</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John</td>
+            <td>Kilimanjaro Road</td>
+            <td>030234897</td>
+            <td>johnkil@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Linda</td>
+            <td>Nam Road</td>
+            <td>0330456796</td>
+            <td>linda@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Muga Road</td>
+            <td>0304568921</td>
+            <td>sam12@gmail.com</td>
+        </tr>
+        <tr>
+            <td>George</td>
+            <td> Hulk Street</td>
+            <td>0304565213</td>
+            <td>george2@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Francis</td>
+            <td>Hill street</td>
+            <td>0200345624</td>
+            <td>francis3@gmail.com</td>
+        </tr>
+    </tbody>
+</table>
+<img src="https://images.pexels.com/photos/12488666/pexels-photo-12488666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"alt="A beautiful album" width="300" height="200">
+<img src="https://images.pexels.com/photos/18361184/pexels-photo-18361184/free-photo-of-woman-sitting-on-the-bed-with-a-record-player-and-vinyl-records.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"alt="A client of us" width="300" height="200">
+<p>Listen to any freestyle of your choice here</p>
+<!--You can select what you want from a drop down menu here-->
+<select name="Genre">
+    <option value="Afrobeats">Afrobeats</option>
+    <option value="Gospel">Gospel</option>
+    <option value="Highlife">Highlife</option>
+    <option value="Hip-pop">Hip-pop</option>
+</select>
+<audio controls >
+    <source src="songs.mp3"type ="audio/mpeg">
+    Your browser does not support the audio element
+</audio>
+<video controls width="680" height="320">
+    <source src ="video.mp4"type="video/mpeg">
+<h3>We are currently seeking to employ more people to join us.</h3>
+<p>Registration form</p>
+<form>
+    <!--Insert your name here-->
+    <label for="Username">Username</label>
+    <input type="text" name="Username"placeholder="Name" required>
+    <!--Insert your email here-->
+   <p><label for="Email">Email</label>
+    <input type="email" id="Email" name="Email"  placeholder="Email"></p>
+    <!--Note that password must be between 8 to 15 characters-->
+    <label for="Password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Password" minlength="8" maxlength="15">
+   <p><label for="DOB">Date of Birth:</label>
+    <input type="date" id="DOB" name="DOB"></p>
+   <!--Select your gender-->
+    <p>Gender:
+    <label><input type="radio" name="Gender" value="male" required>Male</label>
+    <label><input type ="radio" name="Gender" value="female"required>Female</label>
+    <!--Tick your skillset-->
+    <p>Select skillset:</p>
+    <label><input type="checkbox"name="skillset" value="Musician">Musician</label>
+    <label><input type="checkbox"name="skillset" value="Dancer">Dancer</label>
+   <p><label>Qualifications:</label></p>
+    <input type="text" id="Qualifications" name="Qualifications">
+    <button type="submit">Register</button>
+</form>
+</body>
+    <footer>
+    <p>Stark Solutions, Rish music store</p>
+    </footer>
+</html>
